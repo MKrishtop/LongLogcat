@@ -1,4 +1,4 @@
-package org.github.mkrishtop.longlogcat;
+package com.github.mkrishtop.longlogcat;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;

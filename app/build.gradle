@@ -9,6 +9,6 @@ dependencies {
 }
 
 task exec(type: JavaExec, dependsOn: classes) {
-	main = 'org.github.mkrishtop.longlogcat.App'
+	main = 'com.github.mkrishtop.longlogcat.App'
 	classpath sourceSets.main.output.classesDir
 }
