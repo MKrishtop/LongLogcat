@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'eclipse'
 
 repositories {
 	mavenCentral()
@@ -10,5 +11,5 @@ dependencies {
 
 task exec(type: JavaExec, dependsOn: classes) {
 	main = 'com.github.mkrishtop.longlogcat.App'
-	classpath sourceSets.main.output.classesDir
+	classpath sourceSets.main.runtimeClasspath
 }
